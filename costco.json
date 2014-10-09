@@ -1,0 +1,662 @@
+{
+    "summary": {
+        "what": "costco",
+        "where": "toronto",
+        "latitude": "43.67057",
+        "longitude": "-79.390898",
+        "firstListing": 1,
+        "lastListing": 15,
+        "totalListings": 59,
+        "pageCount": 4,
+        "currentPage": 1,
+        "listingsPerPage": 15,
+        "Prov": "ON"
+    },
+    "listings": [
+        {
+            "id": "5873008",
+            "name": "costco",
+            "address": {
+                "street": "100 Billy Bishop Way",
+                "city": "Toronto",
+                "prov": "ON",
+                "pcode": "M3K 2C8"
+            },
+            "geoCode": {
+                "latitude": "43.730142",
+                "longitude": "-79.456399"
+            },
+            "distance": "8.5",
+            "parentId": "",
+            "isParent": false,
+            "content": {
+                "Video": {
+                    "avail": false,
+                    "inMkt": false
+                },
+                "Photo": {
+                    "avail": false,
+                    "inMkt": false
+                },
+                "Profile": {
+                    "avail": false,
+                    "inMkt": false
+                },
+                "DspAd": {
+                    "avail": false,
+                    "inMkt": false
+                },
+                "Logo": {
+                    "avail": false,
+                    "inMkt": false
+                },
+                "Url": {
+                    "avail": true,
+                    "inMkt": true
+                }
+            }
+        },
+        {
+            "id": "100384136",
+            "name": "costco",
+            "address": {
+                "street": "100 Billy Bishop Way",
+                "city": "Toronto",
+                "prov": "ON",
+                "pcode": "M3K 2C8"
+            },
+            "geoCode": {
+                "latitude": "43.730142",
+                "longitude": "-79.456399"
+            },
+            "distance": "8.5",
+            "parentId": "",
+            "isParent": false,
+            "content": {
+                "Video": {
+                    "avail": false,
+                    "inMkt": false
+                },
+                "Photo": {
+                    "avail": false,
+                    "inMkt": false
+                },
+                "Profile": {
+                    "avail": false,
+                    "inMkt": false
+                },
+                "DspAd": {
+                    "avail": false,
+                    "inMkt": false
+                },
+                "Logo": {
+                    "avail": false,
+                    "inMkt": false
+                },
+                "Url": {
+                    "avail": false,
+                    "inMkt": false
+                }
+            }
+        },
+        {
+            "id": "100383063",
+            "name": "costco",
+            "address": {
+                "street": "100 Billy Bishop Way",
+                "city": "Toronto",
+                "prov": "ON",
+                "pcode": "M3K 2C8"
+            },
+            "geoCode": {
+                "latitude": "43.730142",
+                "longitude": "-79.456399"
+            },
+            "distance": "8.5",
+            "parentId": "",
+            "isParent": false,
+            "content": {
+                "Video": {
+                    "avail": false,
+                    "inMkt": false
+                },
+                "Photo": {
+                    "avail": false,
+                    "inMkt": false
+                },
+                "Profile": {
+                    "avail": false,
+                    "inMkt": false
+                },
+                "DspAd": {
+                    "avail": false,
+                    "inMkt": false
+                },
+                "Logo": {
+                    "avail": false,
+                    "inMkt": false
+                },
+                "Url": {
+                    "avail": false,
+                    "inMkt": false
+                }
+            }
+        },
+        {
+            "id": "100384013",
+            "name": "costco",
+            "address": {
+                "street": "100 Billy Bishop Way",
+                "city": "Toronto",
+                "prov": "ON",
+                "pcode": "M3K 2C8"
+            },
+            "geoCode": {
+                "latitude": "43.730142",
+                "longitude": "-79.456399"
+            },
+            "distance": "8.5",
+            "parentId": "",
+            "isParent": false,
+            "content": {
+                "Video": {
+                    "avail": false,
+                    "inMkt": false
+                },
+                "Photo": {
+                    "avail": false,
+                    "inMkt": false
+                },
+                "Profile": {
+                    "avail": false,
+                    "inMkt": false
+                },
+                "DspAd": {
+                    "avail": false,
+                    "inMkt": false
+                },
+                "Logo": {
+                    "avail": false,
+                    "inMkt": false
+                },
+                "Url": {
+                    "avail": false,
+                    "inMkt": false
+                }
+            }
+        },
+        {
+            "id": "5879079",
+            "name": "costco",
+            "address": {
+                "street": "50 Queen Elizabeth Blvd",
+                "city": "Etobicoke",
+                "prov": "ON",
+                "pcode": "M8Z 1M1"
+            },
+            "geoCode": {
+                "latitude": "43.622061",
+                "longitude": "-79.507122"
+            },
+            "distance": "10.8",
+            "parentId": "",
+            "isParent": false,
+            "content": {
+                "Video": {
+                    "avail": false,
+                    "inMkt": false
+                },
+                "Photo": {
+                    "avail": false,
+                    "inMkt": false
+                },
+                "Profile": {
+                    "avail": false,
+                    "inMkt": false
+                },
+                "DspAd": {
+                    "avail": false,
+                    "inMkt": false
+                },
+                "Logo": {
+                    "avail": false,
+                    "inMkt": false
+                },
+                "Url": {
+                    "avail": true,
+                    "inMkt": true
+                }
+            }
+        },
+        {
+            "id": "100384197",
+            "name": "costco",
+            "address": {
+                "street": "50 Queen Elizabeth Blvd",
+                "city": "Etobicoke",
+                "prov": "ON",
+                "pcode": "M8Z 1M1"
+            },
+            "geoCode": {
+                "latitude": "43.622061",
+                "longitude": "-79.507122"
+            },
+            "distance": "10.8",
+            "parentId": "",
+            "isParent": false,
+            "content": {
+                "Video": {
+                    "avail": false,
+                    "inMkt": false
+                },
+                "Photo": {
+                    "avail": false,
+                    "inMkt": false
+                },
+                "Profile": {
+                    "avail": false,
+                    "inMkt": false
+                },
+                "DspAd": {
+                    "avail": false,
+                    "inMkt": false
+                },
+                "Logo": {
+                    "avail": false,
+                    "inMkt": false
+                },
+                "Url": {
+                    "avail": false,
+                    "inMkt": false
+                }
+            }
+        },
+        {
+            "id": "1809373",
+            "name": "costco",
+            "address": {
+                "street": "1411 Warden Ave",
+                "city": "Scarborough",
+                "prov": "ON",
+                "pcode": "M1R 2S3"
+            },
+            "geoCode": {
+                "latitude": "43.758123",
+                "longitude": "-79.299911"
+            },
+            "distance": "12.2",
+            "parentId": "",
+            "isParent": false,
+            "content": {
+                "Video": {
+                    "avail": false,
+                    "inMkt": false
+                },
+                "Photo": {
+                    "avail": false,
+                    "inMkt": false
+                },
+                "Profile": {
+                    "avail": false,
+                    "inMkt": false
+                },
+                "DspAd": {
+                    "avail": false,
+                    "inMkt": false
+                },
+                "Logo": {
+                    "avail": false,
+                    "inMkt": false
+                },
+                "Url": {
+                    "avail": true,
+                    "inMkt": true
+                }
+            }
+        },
+        {
+            "id": "100384127",
+            "name": "costco",
+            "address": {
+                "street": "1411 Warden Ave",
+                "city": "Scarborough",
+                "prov": "ON",
+                "pcode": "M1R 2S3"
+            },
+            "geoCode": {
+                "latitude": "43.758123",
+                "longitude": "-79.299911"
+            },
+            "distance": "12.2",
+            "parentId": "",
+            "isParent": false,
+            "content": {
+                "Video": {
+                    "avail": false,
+                    "inMkt": false
+                },
+                "Photo": {
+                    "avail": false,
+                    "inMkt": false
+                },
+                "Profile": {
+                    "avail": false,
+                    "inMkt": false
+                },
+                "DspAd": {
+                    "avail": false,
+                    "inMkt": false
+                },
+                "Logo": {
+                    "avail": false,
+                    "inMkt": false
+                },
+                "Url": {
+                    "avail": false,
+                    "inMkt": false
+                }
+            }
+        },
+        {
+            "id": "100384007",
+            "name": "costco",
+            "address": {
+                "street": "50 Queen Elizabeth Blvd",
+                "city": "Etobicoke",
+                "prov": "ON",
+                "pcode": "M8Z 1M1"
+            },
+            "geoCode": {
+                "latitude": "43.622061",
+                "longitude": "-79.507122"
+            },
+            "distance": "10.8",
+            "parentId": "",
+            "isParent": false,
+            "content": {
+                "Video": {
+                    "avail": false,
+                    "inMkt": false
+                },
+                "Photo": {
+                    "avail": false,
+                    "inMkt": false
+                },
+                "Profile": {
+                    "avail": false,
+                    "inMkt": false
+                },
+                "DspAd": {
+                    "avail": false,
+                    "inMkt": false
+                },
+                "Logo": {
+                    "avail": false,
+                    "inMkt": false
+                },
+                "Url": {
+                    "avail": false,
+                    "inMkt": false
+                }
+            }
+        },
+        {
+            "id": "100383054",
+            "name": "costco",
+            "address": {
+                "street": "50 Queen Elizabeth Blvd",
+                "city": "Etobicoke",
+                "prov": "ON",
+                "pcode": "M8Z 1M1"
+            },
+            "geoCode": {
+                "latitude": "43.622061",
+                "longitude": "-79.507122"
+            },
+            "distance": "10.8",
+            "parentId": "",
+            "isParent": false,
+            "content": {
+                "Video": {
+                    "avail": false,
+                    "inMkt": false
+                },
+                "Photo": {
+                    "avail": false,
+                    "inMkt": false
+                },
+                "Profile": {
+                    "avail": false,
+                    "inMkt": false
+                },
+                "DspAd": {
+                    "avail": false,
+                    "inMkt": false
+                },
+                "Logo": {
+                    "avail": false,
+                    "inMkt": false
+                },
+                "Url": {
+                    "avail": false,
+                    "inMkt": false
+                }
+            }
+        },
+        {
+            "id": "7120986",
+            "name": "costco",
+            "address": {
+                "street": "155 Rexdale Blvd",
+                "city": "Etobicoke",
+                "prov": "ON",
+                "pcode": "M9W 5Z8"
+            },
+            "geoCode": {
+                "latitude": "43.711373",
+                "longitude": "-79.568483"
+            },
+            "distance": "15.0",
+            "parentId": "",
+            "isParent": false,
+            "content": {
+                "Video": {
+                    "avail": false,
+                    "inMkt": false
+                },
+                "Photo": {
+                    "avail": false,
+                    "inMkt": false
+                },
+                "Profile": {
+                    "avail": false,
+                    "inMkt": false
+                },
+                "DspAd": {
+                    "avail": false,
+                    "inMkt": false
+                },
+                "Logo": {
+                    "avail": false,
+                    "inMkt": false
+                },
+                "Url": {
+                    "avail": false,
+                    "inMkt": false
+                }
+            }
+        },
+        {
+            "id": "100384047",
+            "name": "costco",
+            "address": {
+                "street": "1411 Warden Ave",
+                "city": "Scarborough",
+                "prov": "ON",
+                "pcode": "M1R 2S3"
+            },
+            "geoCode": {
+                "latitude": "43.758123",
+                "longitude": "-79.299911"
+            },
+            "distance": "12.2",
+            "parentId": "",
+            "isParent": false,
+            "content": {
+                "Video": {
+                    "avail": false,
+                    "inMkt": false
+                },
+                "Photo": {
+                    "avail": false,
+                    "inMkt": false
+                },
+                "Profile": {
+                    "avail": false,
+                    "inMkt": false
+                },
+                "DspAd": {
+                    "avail": false,
+                    "inMkt": false
+                },
+                "Logo": {
+                    "avail": false,
+                    "inMkt": false
+                },
+                "Url": {
+                    "avail": false,
+                    "inMkt": false
+                }
+            }
+        },
+        {
+            "id": "100383073",
+            "name": "costco",
+            "address": {
+                "street": "1411 Warden Ave",
+                "city": "Scarborough",
+                "prov": "ON",
+                "pcode": "M1R 2S3"
+            },
+            "geoCode": {
+                "latitude": "43.758123",
+                "longitude": "-79.299911"
+            },
+            "distance": "12.2",
+            "parentId": "",
+            "isParent": false,
+            "content": {
+                "Video": {
+                    "avail": false,
+                    "inMkt": false
+                },
+                "Photo": {
+                    "avail": false,
+                    "inMkt": false
+                },
+                "Profile": {
+                    "avail": false,
+                    "inMkt": false
+                },
+                "DspAd": {
+                    "avail": false,
+                    "inMkt": false
+                },
+                "Logo": {
+                    "avail": false,
+                    "inMkt": false
+                },
+                "Url": {
+                    "avail": false,
+                    "inMkt": false
+                }
+            }
+        },
+        {
+            "id": "100622633",
+            "name": "costco",
+            "address": {
+                "street": "7622 Keele St",
+                "city": "Concord",
+                "prov": "ON",
+                "pcode": "L4K 2R5"
+            },
+            "geoCode": {
+                "latitude": "43.796975",
+                "longitude": "-79.498586"
+            },
+            "distance": "16.5",
+            "parentId": "",
+            "isParent": false,
+            "content": {
+                "Video": {
+                    "avail": false,
+                    "inMkt": false
+                },
+                "Photo": {
+                    "avail": false,
+                    "inMkt": false
+                },
+                "Profile": {
+                    "avail": false,
+                    "inMkt": false
+                },
+                "DspAd": {
+                    "avail": false,
+                    "inMkt": false
+                },
+                "Logo": {
+                    "avail": false,
+                    "inMkt": false
+                },
+                "Url": {
+                    "avail": false,
+                    "inMkt": false
+                }
+            }
+        },
+        {
+            "id": "2206040",
+            "name": "costco",
+            "address": {
+                "street": "71 Colossus Dr",
+                "city": "Woodbridge",
+                "prov": "ON",
+                "pcode": "L4L 9J8"
+            },
+            "geoCode": {
+                "latitude": "43.787014",
+                "longitude": "-79.542675"
+            },
+            "distance": "17.8",
+            "parentId": "",
+            "isParent": false,
+            "content": {
+                "Video": {
+                    "avail": false,
+                    "inMkt": false
+                },
+                "Photo": {
+                    "avail": false,
+                    "inMkt": false
+                },
+                "Profile": {
+                    "avail": false,
+                    "inMkt": false
+                },
+                "DspAd": {
+                    "avail": false,
+                    "inMkt": false
+                },
+                "Logo": {
+                    "avail": false,
+                    "inMkt": false
+                },
+                "Url": {
+                    "avail": true,
+                    "inMkt": false
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,662 @@
+{
+    "summary": {
+        "what": "metro",
+        "where": "toronto",
+        "latitude": "43.67057",
+        "longitude": "-79.390898",
+        "firstListing": 1,
+        "lastListing": 15,
+        "totalListings": 540,
+        "pageCount": 36,
+        "currentPage": 1,
+        "listingsPerPage": 15,
+        "Prov": "ON"
+    },
+    "listings": [
+        {
+            "id": "5831676",
+            "name": "metro",
+            "address": {
+                "street": "100 Lynn Williams St",
+                "city": "Toronto",
+                "prov": "ON",
+                "pcode": "M6K 3N6"
+            },
+            "geoCode": {
+                "latitude": "43.638948",
+                "longitude": "-79.416973"
+            },
+            "distance": "4.1",
+            "parentId": "",
+            "isParent": false,
+            "content": {
+                "Video": {
+                    "avail": false,
+                    "inMkt": false
+                },
+                "Photo": {
+                    "avail": false,
+                    "inMkt": false
+                },
+                "Profile": {
+                    "avail": false,
+                    "inMkt": false
+                },
+                "DspAd": {
+                    "avail": false,
+                    "inMkt": false
+                },
+                "Logo": {
+                    "avail": false,
+                    "inMkt": false
+                },
+                "Url": {
+                    "avail": true,
+                    "inMkt": true
+                }
+            }
+        },
+        {
+            "id": "5831675",
+            "name": "metro",
+            "address": {
+                "street": "3142 Yonge St",
+                "city": "Toronto",
+                "prov": "ON",
+                "pcode": "M4N 2K6"
+            },
+            "geoCode": {
+                "latitude": "43.726895",
+                "longitude": "-79.402669"
+            },
+            "distance": "6.3",
+            "parentId": "",
+            "isParent": false,
+            "content": {
+                "Video": {
+                    "avail": false,
+                    "inMkt": false
+                },
+                "Photo": {
+                    "avail": false,
+                    "inMkt": false
+                },
+                "Profile": {
+                    "avail": false,
+                    "inMkt": false
+                },
+                "DspAd": {
+                    "avail": false,
+                    "inMkt": false
+                },
+                "Logo": {
+                    "avail": false,
+                    "inMkt": false
+                },
+                "Url": {
+                    "avail": true,
+                    "inMkt": true
+                }
+            }
+        },
+        {
+            "id": "5831678",
+            "name": "metro",
+            "address": {
+                "street": "444 Yonge St",
+                "city": "Toronto",
+                "prov": "ON",
+                "pcode": "M5B 2H4"
+            },
+            "geoCode": {
+                "latitude": "43.660855",
+                "longitude": "-79.382934"
+            },
+            "distance": "1.3",
+            "parentId": "",
+            "isParent": false,
+            "content": {
+                "Video": {
+                    "avail": false,
+                    "inMkt": false
+                },
+                "Photo": {
+                    "avail": false,
+                    "inMkt": false
+                },
+                "Profile": {
+                    "avail": false,
+                    "inMkt": false
+                },
+                "DspAd": {
+                    "avail": false,
+                    "inMkt": false
+                },
+                "Logo": {
+                    "avail": false,
+                    "inMkt": false
+                },
+                "Url": {
+                    "avail": false,
+                    "inMkt": false
+                }
+            }
+        },
+        {
+            "id": "7693645",
+            "name": "metro",
+            "address": {
+                "street": "1604-2300 Yonge Street",
+                "city": "Toronto",
+                "prov": "ON",
+                "pcode": "M4P 1E4"
+            },
+            "geoCode": {
+                "latitude": "43.707235",
+                "longitude": "-79.398469"
+            },
+            "distance": "4.1",
+            "parentId": "",
+            "isParent": false,
+            "content": {
+                "Video": {
+                    "avail": false,
+                    "inMkt": false
+                },
+                "Photo": {
+                    "avail": false,
+                    "inMkt": false
+                },
+                "Profile": {
+                    "avail": false,
+                    "inMkt": false
+                },
+                "DspAd": {
+                    "avail": false,
+                    "inMkt": false
+                },
+                "Logo": {
+                    "avail": false,
+                    "inMkt": false
+                },
+                "Url": {
+                    "avail": true,
+                    "inMkt": true
+                }
+            }
+        },
+        {
+            "id": "7580520",
+            "name": "metro",
+            "address": {
+                "street": "80 Front St E",
+                "city": "Toronto",
+                "prov": "ON",
+                "pcode": "M5E 1T4"
+            },
+            "geoCode": {
+                "latitude": "43.648985",
+                "longitude": "-79.372602"
+            },
+            "distance": "2.8",
+            "parentId": "",
+            "isParent": false,
+            "content": {
+                "Video": {
+                    "avail": false,
+                    "inMkt": false
+                },
+                "Photo": {
+                    "avail": false,
+                    "inMkt": false
+                },
+                "Profile": {
+                    "avail": false,
+                    "inMkt": false
+                },
+                "DspAd": {
+                    "avail": false,
+                    "inMkt": false
+                },
+                "Logo": {
+                    "avail": false,
+                    "inMkt": false
+                },
+                "Url": {
+                    "avail": true,
+                    "inMkt": true
+                }
+            }
+        },
+        {
+            "id": "5831683",
+            "name": "metro",
+            "address": {
+                "street": "425 Bloor St W",
+                "city": "Toronto",
+                "prov": "ON",
+                "pcode": "M5S 1X6"
+            },
+            "geoCode": {
+                "latitude": "43.666424",
+                "longitude": "-79.404996"
+            },
+            "distance": "1.2",
+            "parentId": "",
+            "isParent": false,
+            "content": {
+                "Video": {
+                    "avail": false,
+                    "inMkt": false
+                },
+                "Photo": {
+                    "avail": false,
+                    "inMkt": false
+                },
+                "Profile": {
+                    "avail": false,
+                    "inMkt": false
+                },
+                "DspAd": {
+                    "avail": false,
+                    "inMkt": false
+                },
+                "Logo": {
+                    "avail": false,
+                    "inMkt": false
+                },
+                "Url": {
+                    "avail": true,
+                    "inMkt": true
+                }
+            }
+        },
+        {
+            "id": "5831682",
+            "name": "metro",
+            "address": {
+                "street": "89 Gould St",
+                "city": "Toronto",
+                "prov": "ON",
+                "pcode": "M5B 2R1"
+            },
+            "geoCode": {
+                "latitude": "43.658521",
+                "longitude": "-79.376518"
+            },
+            "distance": "1.8",
+            "parentId": "",
+            "isParent": false,
+            "content": {
+                "Video": {
+                    "avail": false,
+                    "inMkt": false
+                },
+                "Photo": {
+                    "avail": false,
+                    "inMkt": false
+                },
+                "Profile": {
+                    "avail": false,
+                    "inMkt": false
+                },
+                "DspAd": {
+                    "avail": false,
+                    "inMkt": false
+                },
+                "Logo": {
+                    "avail": false,
+                    "inMkt": false
+                },
+                "Url": {
+                    "avail": true,
+                    "inMkt": true
+                }
+            }
+        },
+        {
+            "id": "5831681",
+            "name": "metro",
+            "address": {
+                "street": "2155 St. Clair Ave W",
+                "city": "Toronto",
+                "prov": "ON",
+                "pcode": "M6N 1K5"
+            },
+            "geoCode": {
+                "latitude": "43.671127",
+                "longitude": "-79.473854"
+            },
+            "distance": "6.7",
+            "parentId": "",
+            "isParent": false,
+            "content": {
+                "Video": {
+                    "avail": false,
+                    "inMkt": false
+                },
+                "Photo": {
+                    "avail": false,
+                    "inMkt": false
+                },
+                "Profile": {
+                    "avail": false,
+                    "inMkt": false
+                },
+                "DspAd": {
+                    "avail": false,
+                    "inMkt": false
+                },
+                "Logo": {
+                    "avail": false,
+                    "inMkt": false
+                },
+                "Url": {
+                    "avail": true,
+                    "inMkt": true
+                }
+            }
+        },
+        {
+            "id": "5831677",
+            "name": "metro",
+            "address": {
+                "street": "735 College St",
+                "city": "Toronto",
+                "prov": "ON",
+                "pcode": "M6G 1C5"
+            },
+            "geoCode": {
+                "latitude": "43.654975",
+                "longitude": "-79.419877"
+            },
+            "distance": "2.9",
+            "parentId": "",
+            "isParent": false,
+            "content": {
+                "Video": {
+                    "avail": false,
+                    "inMkt": false
+                },
+                "Photo": {
+                    "avail": false,
+                    "inMkt": false
+                },
+                "Profile": {
+                    "avail": false,
+                    "inMkt": false
+                },
+                "DspAd": {
+                    "avail": false,
+                    "inMkt": false
+                },
+                "Logo": {
+                    "avail": false,
+                    "inMkt": false
+                },
+                "Url": {
+                    "avail": true,
+                    "inMkt": true
+                }
+            }
+        },
+        {
+            "id": "5831673",
+            "name": "metro",
+            "address": {
+                "street": "656 Eglinton Ave E",
+                "city": "Toronto",
+                "prov": "ON",
+                "pcode": "M4P 1P1"
+            },
+            "geoCode": {
+                "latitude": "43.710798",
+                "longitude": "-79.378474"
+            },
+            "distance": "4.6",
+            "parentId": "",
+            "isParent": false,
+            "content": {
+                "Video": {
+                    "avail": false,
+                    "inMkt": false
+                },
+                "Photo": {
+                    "avail": false,
+                    "inMkt": false
+                },
+                "Profile": {
+                    "avail": false,
+                    "inMkt": false
+                },
+                "DspAd": {
+                    "avail": false,
+                    "inMkt": false
+                },
+                "Logo": {
+                    "avail": false,
+                    "inMkt": false
+                },
+                "Url": {
+                    "avail": true,
+                    "inMkt": true
+                }
+            }
+        },
+        {
+            "id": "5831665",
+            "name": "metro",
+            "address": {
+                "street": "1050 Don Mills Rd",
+                "city": "North York",
+                "prov": "ON",
+                "pcode": "M3C 1W6"
+            },
+            "geoCode": {
+                "latitude": "43.734034",
+                "longitude": "-79.342701"
+            },
+            "distance": "8.1",
+            "parentId": "",
+            "isParent": false,
+            "content": {
+                "Video": {
+                    "avail": false,
+                    "inMkt": false
+                },
+                "Photo": {
+                    "avail": false,
+                    "inMkt": false
+                },
+                "Profile": {
+                    "avail": false,
+                    "inMkt": false
+                },
+                "DspAd": {
+                    "avail": false,
+                    "inMkt": false
+                },
+                "Logo": {
+                    "avail": false,
+                    "inMkt": false
+                },
+                "Url": {
+                    "avail": true,
+                    "inMkt": true
+                }
+            }
+        },
+        {
+            "id": "5831664",
+            "name": "metro",
+            "address": {
+                "street": "291 York Mills Rd",
+                "city": "North York",
+                "prov": "ON",
+                "pcode": "M2L 1L3"
+            },
+            "geoCode": {
+                "latitude": "43.747691",
+                "longitude": "-79.385717"
+            },
+            "distance": "8.6",
+            "parentId": "",
+            "isParent": false,
+            "content": {
+                "Video": {
+                    "avail": false,
+                    "inMkt": false
+                },
+                "Photo": {
+                    "avail": false,
+                    "inMkt": false
+                },
+                "Profile": {
+                    "avail": false,
+                    "inMkt": false
+                },
+                "DspAd": {
+                    "avail": false,
+                    "inMkt": false
+                },
+                "Logo": {
+                    "avail": false,
+                    "inMkt": false
+                },
+                "Url": {
+                    "avail": true,
+                    "inMkt": true
+                }
+            }
+        },
+        {
+            "id": "5831663",
+            "name": "metro",
+            "address": {
+                "street": "1411 Lawrence Ave W",
+                "city": "North York",
+                "prov": "ON",
+                "pcode": "M6L 1A4"
+            },
+            "geoCode": {
+                "latitude": "43.708679",
+                "longitude": "-79.477891"
+            },
+            "distance": "8.2",
+            "parentId": "",
+            "isParent": false,
+            "content": {
+                "Video": {
+                    "avail": false,
+                    "inMkt": false
+                },
+                "Photo": {
+                    "avail": false,
+                    "inMkt": false
+                },
+                "Profile": {
+                    "avail": false,
+                    "inMkt": false
+                },
+                "DspAd": {
+                    "avail": false,
+                    "inMkt": false
+                },
+                "Logo": {
+                    "avail": false,
+                    "inMkt": false
+                },
+                "Url": {
+                    "avail": true,
+                    "inMkt": true
+                }
+            }
+        },
+        {
+            "id": "8162142",
+            "name": "metro",
+            "address": {
+                "street": "291 York Mills Rd",
+                "city": "North York",
+                "prov": "ON",
+                "pcode": "M2L 1L3"
+            },
+            "geoCode": {
+                "latitude": "43.747691",
+                "longitude": "-79.385717"
+            },
+            "distance": "8.6",
+            "parentId": "",
+            "isParent": false,
+            "content": {
+                "Video": {
+                    "avail": false,
+                    "inMkt": false
+                },
+                "Photo": {
+                    "avail": false,
+                    "inMkt": false
+                },
+                "Profile": {
+                    "avail": false,
+                    "inMkt": false
+                },
+                "DspAd": {
+                    "avail": false,
+                    "inMkt": false
+                },
+                "Logo": {
+                    "avail": false,
+                    "inMkt": false
+                },
+                "Url": {
+                    "avail": true,
+                    "inMkt": true
+                }
+            }
+        },
+        {
+            "id": "5831679",
+            "name": "metro",
+            "address": {
+                "street": "3003 Danforth Ave",
+                "city": "East York",
+                "prov": "ON",
+                "pcode": "M4C 1M9"
+            },
+            "geoCode": {
+                "latitude": "43.691098",
+                "longitude": "-79.288906"
+            },
+            "distance": "8.5",
+            "parentId": "",
+            "isParent": false,
+            "content": {
+                "Video": {
+                    "avail": false,
+                    "inMkt": false
+                },
+                "Photo": {
+                    "avail": false,
+                    "inMkt": false
+                },
+                "Profile": {
+                    "avail": false,
+                    "inMkt": false
+                },
+                "DspAd": {
+                    "avail": false,
+                    "inMkt": false
+                },
+                "Logo": {
+                    "avail": false,
+                    "inMkt": false
+                },
+                "Url": {
+                    "avail": true,
+                    "inMkt": true
+                }
+            }
+        }
+    ]
+}

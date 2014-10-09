@@ -1,0 +1,662 @@
+{
+    "summary": {
+        "what": "futureshop",
+        "where": "toronto",
+        "latitude": "43.67057",
+        "longitude": "-79.390898",
+        "firstListing": 1,
+        "lastListing": 15,
+        "totalListings": 39,
+        "pageCount": 3,
+        "currentPage": 1,
+        "listingsPerPage": 15,
+        "Prov": "ON"
+    },
+    "listings": [
+                 {
+                 "id": "2824501",
+                 "name": "futureshop",
+                 "address": {
+                 "street": "2625A Weston Rd",
+                 "city": "Toronto",
+                 "prov": "ON",
+                 "pcode": "M9N 3V8"
+                 },
+                 "geoCode": {
+                 "latitude": "43.711847",
+                 "longitude": "-79.535342"
+                 },
+                 "distance": "12.5",
+                 "parentId": "",
+                 "isParent": false,
+                 "content": {
+                 "Video": {
+                 "avail": false,
+                 "inMkt": false
+                 },
+                 "Photo": {
+                 "avail": false,
+                 "inMkt": false
+                 },
+                 "Profile": {
+                 "avail": false,
+                 "inMkt": false
+                 },
+                 "DspAd": {
+                 "avail": false,
+                 "inMkt": false
+                 },
+                 "Logo": {
+                 "avail": false,
+                 "inMkt": false
+                 },
+                 "Url": {
+                 "avail": true,
+                 "inMkt": true
+                 }
+                 }
+                 },
+                 {
+                 "id": "2653954",
+                 "name": "futureshop",
+                 "address": {
+                 "street": "845 Eglinton Ave E",
+                 "city": "East York",
+                 "prov": "ON",
+                 "pcode": "M4G 4G9"
+                 },
+                 "geoCode": {
+                 "latitude": "43.713941",
+                 "longitude": "-79.363046"
+                 },
+                 "distance": "5.3",
+                 "parentId": "",
+                 "isParent": false,
+                 "content": {
+                 "Video": {
+                 "avail": false,
+                 "inMkt": false
+                 },
+                 "Photo": {
+                 "avail": false,
+                 "inMkt": false
+                 },
+                 "Profile": {
+                 "avail": false,
+                 "inMkt": false
+                 },
+                 "DspAd": {
+                 "avail": false,
+                 "inMkt": false
+                 },
+                 "Logo": {
+                 "avail": false,
+                 "inMkt": false
+                 },
+                 "Url": {
+                 "avail": false,
+                 "inMkt": false
+                 }
+                 }
+                 },
+                 {
+                 "id": "7574962",
+                 "name": "futureshop",
+                 "address": {
+                 "street": "2625 Weston Rd",
+                 "city": "Toronto",
+                 "prov": "ON",
+                 "pcode": "M9N 3V8"
+                 },
+                 "geoCode": {
+                 "latitude": "43.711913",
+                 "longitude": "-79.53539"
+                 },
+                 "distance": "12.5",
+                 "parentId": "",
+                 "isParent": false,
+                 "content": {
+                 "Video": {
+                 "avail": false,
+                 "inMkt": false
+                 },
+                 "Photo": {
+                 "avail": false,
+                 "inMkt": false
+                 },
+                 "Profile": {
+                 "avail": false,
+                 "inMkt": false
+                 },
+                 "DspAd": {
+                 "avail": false,
+                 "inMkt": false
+                 },
+                 "Logo": {
+                 "avail": false,
+                 "inMkt": false
+                 },
+                 "Url": {
+                 "avail": true,
+                 "inMkt": true
+                 }
+                 }
+                 },
+                 {
+                 "id": "100375290",
+                 "name": "futureshop",
+                 "address": {
+                 "street": "325 Yonge St",
+                 "city": "Toronto",
+                 "prov": "ON",
+                 "pcode": "M5B 1R7"
+                 },
+                 "geoCode": {
+                 "latitude": "43.656876",
+                 "longitude": "-79.381152"
+                 },
+                 "distance": "1.7",
+                 "parentId": "",
+                 "isParent": false,
+                 "content": {
+                 "Video": {
+                 "avail": false,
+                 "inMkt": false
+                 },
+                 "Photo": {
+                 "avail": false,
+                 "inMkt": false
+                 },
+                 "Profile": {
+                 "avail": false,
+                 "inMkt": false
+                 },
+                 "DspAd": {
+                 "avail": false,
+                 "inMkt": false
+                 },
+                 "Logo": {
+                 "avail": false,
+                 "inMkt": false
+                 },
+                 "Url": {
+                 "avail": false,
+                 "inMkt": false
+                 }
+                 }
+                 },
+                 {
+                 "id": "7144327",
+                 "name": "futureshop",
+                 "address": {
+                 "street": "10 Dundas E",
+                 "city": "Toronto",
+                 "prov": "ON",
+                 "pcode": "M5B 2G9"
+                 },
+                 "geoCode": {
+                 "latitude": "43.656417",
+                 "longitude": "-79.38058"
+                 },
+                 "distance": "1.8",
+                 "parentId": "",
+                 "isParent": false,
+                 "content": {
+                 "Video": {
+                 "avail": false,
+                 "inMkt": false
+                 },
+                 "Photo": {
+                 "avail": false,
+                 "inMkt": false
+                 },
+                 "Profile": {
+                 "avail": false,
+                 "inMkt": false
+                 },
+                 "DspAd": {
+                 "avail": false,
+                 "inMkt": false
+                 },
+                 "Logo": {
+                 "avail": false,
+                 "inMkt": false
+                 },
+                 "Url": {
+                 "avail": false,
+                 "inMkt": false
+                 }
+                 }
+                 },
+                 {
+                 "id": "4168968",
+                 "name": "futureshop",
+                 "address": {
+                 "street": "325 Yonge St",
+                 "city": "Toronto",
+                 "prov": "ON",
+                 "pcode": "M5B 1R7"
+                 },
+                 "geoCode": {
+                 "latitude": "43.656876",
+                 "longitude": "-79.381152"
+                 },
+                 "distance": "1.7",
+                 "parentId": "",
+                 "isParent": false,
+                 "content": {
+                 "Video": {
+                 "avail": false,
+                 "inMkt": false
+                 },
+                 "Photo": {
+                 "avail": false,
+                 "inMkt": false
+                 },
+                 "Profile": {
+                 "avail": false,
+                 "inMkt": false
+                 },
+                 "DspAd": {
+                 "avail": false,
+                 "inMkt": false
+                 },
+                 "Logo": {
+                 "avail": false,
+                 "inMkt": false
+                 },
+                 "Url": {
+                 "avail": true,
+                 "inMkt": true
+                 }
+                 }
+                 },
+                 {
+                 "id": "660395",
+                 "name": "futureshop",
+                 "address": {
+                 "street": "2400 Yonge St",
+                 "city": "Toronto",
+                 "prov": "ON",
+                 "pcode": "M4P 2H4"
+                 },
+                 "geoCode": {
+                 "latitude": "43.710045",
+                 "longitude": "-79.399112"
+                 },
+                 "distance": "4.4",
+                 "parentId": "",
+                 "isParent": false,
+                 "content": {
+                 "Video": {
+                 "avail": false,
+                 "inMkt": false
+                 },
+                 "Photo": {
+                 "avail": false,
+                 "inMkt": false
+                 },
+                 "Profile": {
+                 "avail": false,
+                 "inMkt": false
+                 },
+                 "DspAd": {
+                 "avail": false,
+                 "inMkt": false
+                 },
+                 "Logo": {
+                 "avail": false,
+                 "inMkt": false
+                 },
+                 "Url": {
+                 "avail": true,
+                 "inMkt": true
+                 }
+                 }
+                 },
+                 {
+                 "id": "660353",
+                 "name": "futureshop",
+                 "address": {
+                 "street": "10 Old Stock Yards Rd",
+                 "city": "Toronto",
+                 "prov": "ON",
+                 "pcode": "M6N 5G8"
+                 },
+                 "geoCode": {
+                 "latitude": "43.670201",
+                 "longitude": "-79.470432"
+                 },
+                 "distance": "6.4",
+                 "parentId": "",
+                 "isParent": false,
+                 "content": {
+                 "Video": {
+                 "avail": false,
+                 "inMkt": false
+                 },
+                 "Photo": {
+                 "avail": false,
+                 "inMkt": false
+                 },
+                 "Profile": {
+                 "avail": false,
+                 "inMkt": false
+                 },
+                 "DspAd": {
+                 "avail": false,
+                 "inMkt": false
+                 },
+                 "Logo": {
+                 "avail": false,
+                 "inMkt": false
+                 },
+                 "Url": {
+                 "avail": true,
+                 "inMkt": true
+                 }
+                 }
+                 },
+                 {
+                 "id": "2279544",
+                 "name": "futureshop",
+                 "address": {
+                 "street": "806D Warden Ave",
+                 "city": "Scarborough",
+                 "prov": "ON",
+                 "pcode": "M1L 4T7"
+                 },
+                 "geoCode": {
+                 "latitude": "43.7261418",
+                 "longitude": "-79.2870128"
+                 },
+                 "distance": "10.4",
+                 "parentId": "",
+                 "isParent": false,
+                 "content": {
+                 "Video": {
+                 "avail": false,
+                 "inMkt": false
+                 },
+                 "Photo": {
+                 "avail": false,
+                 "inMkt": false
+                 },
+                 "Profile": {
+                 "avail": false,
+                 "inMkt": false
+                 },
+                 "DspAd": {
+                 "avail": false,
+                 "inMkt": false
+                 },
+                 "Logo": {
+                 "avail": false,
+                 "inMkt": false
+                 },
+                 "Url": {
+                 "avail": true,
+                 "inMkt": true
+                 }
+                 }
+                 },
+                 {
+                 "id": "5985370",
+                 "name": "futureshop",
+                 "address": {
+                 "street": "1563 The Queensway",
+                 "city": "Toronto",
+                 "prov": "ON",
+                 "pcode": "M8Z 1T8"
+                 },
+                 "geoCode": {
+                 "latitude": "43.618067",
+                 "longitude": "-79.539518"
+                 },
+                 "distance": "13.3",
+                 "parentId": "",
+                 "isParent": false,
+                 "content": {
+                 "Video": {
+                 "avail": false,
+                 "inMkt": false
+                 },
+                 "Photo": {
+                 "avail": false,
+                 "inMkt": false
+                 },
+                 "Profile": {
+                 "avail": false,
+                 "inMkt": false
+                 },
+                 "DspAd": {
+                 "avail": false,
+                 "inMkt": false
+                 },
+                 "Logo": {
+                 "avail": false,
+                 "inMkt": false
+                 },
+                 "Url": {
+                 "avail": true,
+                 "inMkt": true
+                 }
+                 }
+                 },
+                 {
+                 "id": "2279545",
+                 "name": "futureshop",
+                 "address": {
+                 "street": "1141 Kennedy Rd",
+                 "city": "Scarborough",
+                 "prov": "ON",
+                 "pcode": "M1P 2K8"
+                 },
+                 "geoCode": {
+                 "latitude": "43.751582",
+                 "longitude": "-79.275578"
+                 },
+                 "distance": "12.9",
+                 "parentId": "",
+                 "isParent": false,
+                 "content": {
+                 "Video": {
+                 "avail": false,
+                 "inMkt": false
+                 },
+                 "Photo": {
+                 "avail": false,
+                 "inMkt": false
+                 },
+                 "Profile": {
+                 "avail": false,
+                 "inMkt": false
+                 },
+                 "DspAd": {
+                 "avail": false,
+                 "inMkt": false
+                 },
+                 "Logo": {
+                 "avail": false,
+                 "inMkt": false
+                 },
+                 "Url": {
+                 "avail": true,
+                 "inMkt": true
+                 }
+                 }
+                 },
+                 {
+                 "id": "5360012",
+                 "name": "futureshop",
+                 "address": {
+                 "street": "2-3200 Highway 7",
+                 "city": "Concord",
+                 "prov": "ON",
+                 "pcode": "L4K 5Z5"
+                 },
+                 "geoCode": {
+                 "latitude": "43.7932163",
+                 "longitude": "-79.5290357"
+                 },
+                 "distance": "17.6",
+                 "parentId": "",
+                 "isParent": false,
+                 "content": {
+                 "Video": {
+                 "avail": false,
+                 "inMkt": false
+                 },
+                 "Photo": {
+                 "avail": false,
+                 "inMkt": false
+                 },
+                 "Profile": {
+                 "avail": false,
+                 "inMkt": false
+                 },
+                 "DspAd": {
+                 "avail": false,
+                 "inMkt": false
+                 },
+                 "Logo": {
+                 "avail": false,
+                 "inMkt": false
+                 },
+                 "Url": {
+                 "avail": true,
+                 "inMkt": false
+                 }
+                 }
+                 },
+                 {
+                 "id": "7553318",
+                 "name": "futureshop",
+                 "address": {
+                 "street": "2040 Dundas St E",
+                 "city": "Mississauga",
+                 "prov": "ON",
+                 "pcode": "L4X 2X8"
+                 },
+                 "geoCode": {
+                 "latitude": "43.622793",
+                 "longitude": "-79.569459"
+                 },
+                 "distance": "15.3",
+                 "parentId": "",
+                 "isParent": false,
+                 "content": {
+                 "Video": {
+                 "avail": false,
+                 "inMkt": false
+                 },
+                 "Photo": {
+                 "avail": false,
+                 "inMkt": false
+                 },
+                 "Profile": {
+                 "avail": false,
+                 "inMkt": false
+                 },
+                 "DspAd": {
+                 "avail": false,
+                 "inMkt": false
+                 },
+                 "Logo": {
+                 "avail": false,
+                 "inMkt": false
+                 },
+                 "Url": {
+                 "avail": false,
+                 "inMkt": false
+                 }
+                 }
+                 },
+                 {
+                 "id": "660345",
+                 "name": "futureshop",
+                 "address": {
+                 "street": "1475 Dundas St E",
+                 "city": "Mississauga",
+                 "prov": "ON",
+                 "pcode": "L4X 1L3"
+                 },
+                 "geoCode": {
+                 "latitude": "43.61094",
+                 "longitude": "-79.58202"
+                 },
+                 "distance": "16.7",
+                 "parentId": "",
+                 "isParent": false,
+                 "content": {
+                 "Video": {
+                 "avail": false,
+                 "inMkt": false
+                 },
+                 "Photo": {
+                 "avail": false,
+                 "inMkt": false
+                 },
+                 "Profile": {
+                 "avail": false,
+                 "inMkt": false
+                 },
+                 "DspAd": {
+                 "avail": false,
+                 "inMkt": false
+                 },
+                 "Logo": {
+                 "avail": false,
+                 "inMkt": false
+                 },
+                 "Url": {
+                 "avail": false,
+                 "inMkt": false
+                 }
+                 }
+                 },
+                 {
+                 "id": "660378",
+                 "name": "futureshop",
+                 "address": {
+                 "street": "9325 Yonge St",
+                 "city": "Richmond Hill",
+                 "prov": "ON",
+                 "pcode": "L4C 0A8"
+                 },
+                 "geoCode": {
+                 "latitude": "43.855255",
+                 "longitude": "-79.433471"
+                 },
+                 "distance": "20.8",
+                 "parentId": "",
+                 "isParent": false,
+                 "content": {
+                 "Video": {
+                 "avail": false,
+                 "inMkt": false
+                 },
+                 "Photo": {
+                 "avail": false,
+                 "inMkt": false
+                 },
+                 "Profile": {
+                 "avail": false,
+                 "inMkt": false
+                 },
+                 "DspAd": {
+                 "avail": false,
+                 "inMkt": false
+                 },
+                 "Logo": {
+                 "avail": false,
+                 "inMkt": false
+                 },
+                 "Url": {
+                 "avail": true,
+                 "inMkt": false
+                 }
+                 }
+                 }
+                 ]
+}
