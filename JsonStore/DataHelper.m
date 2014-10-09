@@ -7,19 +7,14 @@
 //
 
 #import "DataHelper.h"
-#import "JSONStore.h"
-#import "AppDelegate.h"
-#import "JSONStoreQueryPart.h"
 #import <AdSupport/ASIdentifierManager.h>
 static DataHelper *sharedInstance = nil;
+static float percentTage = 1.0;
 
 @interface DataHelper ()
-@property (strong, nonatomic) JSONStoreCollection *summary;
-@property (strong, nonatomic) JSONStoreCollection *business;
-@property (strong, nonatomic) JSONStoreOpenOptions *option;
-@property (strong, nonatomic) AppDelegate *delegate;
-
+@property (nonatomic)  CGFloat percentage;
 @end
+
 @implementation DataHelper
 + (DataHelper *)sharedDataHelper {
     static dispatch_once_t onceToken;
@@ -33,7 +28,6 @@ static DataHelper *sharedInstance = nil;
 - (id)init {
     self = [super init];
     if (self) {
-        self.delegate = [UIApplication sharedApplication].delegate;
         self.summary = [[JSONStoreCollection alloc] initWithName:@"Summary"];
         [self.summary setSearchField:@"where" withType:JSONStore_String];
         [self.summary setSearchField:@"what" withType:JSONStore_String];
@@ -115,6 +109,9 @@ static DataHelper *sharedInstance = nil;
         
         NSNumber * added = [self.business addData:data andMarkDirty:NO withOptions:nil error:&err];
         NSLog(@" %@ ",added ? @"SUCCESS TO CREATE BUSINESS ENTRY" : @"FAILURE TO CREATE BUSINESS ENTRY");
+        self.percentage = idx*percentTage/businessArr.count;
+        self.progressUpdateBlock(self.percentage);
+        NSLog(@"self.percentage is %f",self.percentage);
     }];
     NSLog(@"OUTBLOCK");
     self.block();

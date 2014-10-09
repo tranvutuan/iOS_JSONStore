@@ -15,7 +15,6 @@
 		9179491B19E5D731005F9056 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9179491A19E5D731005F9056 /* AppDelegate.m */; };
 		9179491E19E5D731005F9056 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9179491C19E5D731005F9056 /* Main_iPhone.storyboard */; };
 		9179492119E5D731005F9056 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9179491F19E5D731005F9056 /* Main_iPad.storyboard */; };
-		9179492419E5D731005F9056 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9179492319E5D731005F9056 /* ViewController.m */; };
 		9179492619E5D731005F9056 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9179492519E5D731005F9056 /* Images.xcassets */; };
 		9179492D19E5D731005F9056 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9179492C19E5D731005F9056 /* XCTest.framework */; };
 		9179492E19E5D731005F9056 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9179490A19E5D731005F9056 /* Foundation.framework */; };
@@ -41,7 +40,6 @@
 		917949BB19E5DD96005F9056 /* futureshop.json in Resources */ = {isa = PBXBuildFile; fileRef = 917949B819E5DD96005F9056 /* futureshop.json */; };
 		917949BC19E5DD96005F9056 /* metro.json in Resources */ = {isa = PBXBuildFile; fileRef = 917949B919E5DD96005F9056 /* metro.json */; };
 		917949BD19E5DD96005F9056 /* costco.json in Resources */ = {isa = PBXBuildFile; fileRef = 917949BA19E5DD96005F9056 /* costco.json */; };
-		917949C719E5DDC3005F9056 /* BusinessListingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 917949C219E5DDC3005F9056 /* BusinessListingViewController.m */; };
 		917949C819E5DDC3005F9056 /* BusinessLocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 917949C419E5DDC3005F9056 /* BusinessLocationViewController.m */; };
 		917949C919E5DDC3005F9056 /* HomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 917949C619E5DDC3005F9056 /* HomePageViewController.m */; };
 		917949CD19E5DDCF005F9056 /* HomePageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 917949CA19E5DDCF005F9056 /* HomePageViewController.xib */; };
@@ -72,8 +70,6 @@
 		9179491A19E5D731005F9056 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = JsonStore/AppDelegate.m; sourceTree = "<group>"; };
 		9179491D19E5D731005F9056 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
 		9179492019E5D731005F9056 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		9179492219E5D731005F9056 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = JsonStore/ViewController.h; sourceTree = "<group>"; };
-		9179492319E5D731005F9056 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = JsonStore/ViewController.m; sourceTree = "<group>"; };
 		9179492519E5D731005F9056 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		9179492B19E5D731005F9056 /* JsonStoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JsonStoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9179492C19E5D731005F9056 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -180,8 +176,6 @@
 		917949B819E5DD96005F9056 /* futureshop.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = futureshop.json; sourceTree = "<group>"; };
 		917949B919E5DD96005F9056 /* metro.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = metro.json; sourceTree = "<group>"; };
 		917949BA19E5DD96005F9056 /* costco.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = costco.json; sourceTree = "<group>"; };
-		917949C119E5DDC3005F9056 /* BusinessListingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusinessListingViewController.h; sourceTree = "<group>"; };
-		917949C219E5DDC3005F9056 /* BusinessListingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BusinessListingViewController.m; sourceTree = "<group>"; };
 		917949C319E5DDC3005F9056 /* BusinessLocationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusinessLocationViewController.h; sourceTree = "<group>"; };
 		917949C419E5DDC3005F9056 /* BusinessLocationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BusinessLocationViewController.m; sourceTree = "<group>"; };
 		917949C519E5DDC3005F9056 /* HomePageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomePageViewController.h; sourceTree = "<group>"; };
@@ -461,10 +455,6 @@
 			children = (
 				9179491919E5D731005F9056 /* AppDelegate.h */,
 				9179491A19E5D731005F9056 /* AppDelegate.m */,
-				9179492219E5D731005F9056 /* ViewController.h */,
-				9179492319E5D731005F9056 /* ViewController.m */,
-				917949C119E5DDC3005F9056 /* BusinessListingViewController.h */,
-				917949C219E5DDC3005F9056 /* BusinessListingViewController.m */,
 				917949C319E5DDC3005F9056 /* BusinessLocationViewController.h */,
 				917949C419E5DDC3005F9056 /* BusinessLocationViewController.m */,
 				917949C519E5DDC3005F9056 /* HomePageViewController.h */,
@@ -593,13 +583,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9179492419E5D731005F9056 /* ViewController.m in Sources */,
 				917949B619E5D945005F9056 /* DataHelper.m in Sources */,
 				9179491B19E5D731005F9056 /* AppDelegate.m in Sources */,
 				9179491719E5D731005F9056 /* main.m in Sources */,
 				917949C919E5DDC3005F9056 /* HomePageViewController.m in Sources */,
 				917949C819E5DDC3005F9056 /* BusinessLocationViewController.m in Sources */,
-				917949C719E5DDC3005F9056 /* BusinessListingViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

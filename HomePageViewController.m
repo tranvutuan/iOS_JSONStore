@@ -13,14 +13,12 @@
 #import "AppDelegate.h"
 #import "JSONStoreQueryPart.h"
 #import "HomePageViewController.h"
-#import "BusinessListingViewController.h"
 #import "BusinessLocationViewController.h"
 
 static double ticksToNanoseconds = 0.0;
 
 @interface HomePageViewController ()
 @property(strong, nonatomic) BusinessLocationViewController *businessLocationViewController;
-@property(strong, nonatomic) BusinessListingViewController *viewController;
 @property(strong, nonatomic) AppDelegate *appDelegate;
 @property(strong, nonatomic) NSArray *businessArr;
 @property(strong, nonatomic) NSString *where;
@@ -44,8 +42,9 @@ static double ticksToNanoseconds = 0.0;
     [super viewDidLoad];
     self.appDelegate = [UIApplication sharedApplication].delegate;
     self.where = @"Toronto";
-    self.viewController = [[BusinessListingViewController alloc] initWithNibName:@"BusinessListingViewController" bundle:nil];
     [self.whatTxtField setDelegate:self];
+    self.businessLocationViewController = [[BusinessLocationViewController alloc] initWithNibName:@"BusinessLocationViewController" bundle:nil];
+
     [DataHelper sharedDataHelper].block = ^ {
         NSLog(@"TNA8 = %d",[NSThread isMainThread]);
         [[DataHelper sharedDataHelper] fetchBusinessFromJSONStore:self.what withCompletion :^(NSArray *result) {
@@ -53,16 +52,27 @@ static double ticksToNanoseconds = 0.0;
             
             uint64_t endTime = mach_absolute_time();
             uint64_t elapsedTime = endTime - self.startTime;
+            
             double elapsedTimeInNanoseconds = elapsedTime * ticksToNanoseconds;
             NSLog(@"DOWNLOAEDED TIME: %f [ms]", elapsedTimeInNanoseconds/1E6);
             
             dispatch_async(dispatch_get_main_queue(), ^(void){
                 NSLog(@"TNA9 = %d",[NSThread isMainThread]);
                 [self.progressBar setProgress:1 animated:YES];
+                sleep(.5); // slow down so that we can see progress bar is reaching to the end.
                 self.progressBar.hidden = YES;
+                self.progressBar.progress = 0;
                 [self.businessTableView reloadData];
             });
         }];
+    };
+    
+    [DataHelper sharedDataHelper].progressUpdateBlock = ^(CGFloat percentage) {
+        dispatch_async(dispatch_get_main_queue(), ^(void){
+            NSLog(@"TNA10 = %d",[NSThread isMainThread]);
+            [self.progressBar setProgress:percentage animated:YES];
+        });
+        
     };
 }
 
@@ -96,6 +106,8 @@ static double ticksToNanoseconds = 0.0;
     }
     else {
         NSLog(@"%@ NOT EXISTS ",self.whatTxtField.text);
+        //self.progressBar.hidden = YES;
+        self.progressBar.progress = 0;
         NSString *filePath = [[NSBundle mainBundle] pathForResource:self.what ofType:@"json"];
         
         if (filePath) {
@@ -136,7 +148,7 @@ static double ticksToNanoseconds = 0.0;
     return cell;
 }
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    //[self getCoorBusinessAt:indexPath];
+    [self getCoorBusinessAt:indexPath];
 }
 #pragma mark - UITextFieldDelegate
 -(BOOL)textFieldShouldReturn:(UITextField *)textField
@@ -144,5 +156,18 @@ static double ticksToNanoseconds = 0.0;
     [self.whatTxtField resignFirstResponder];
     [self findBusiness:nil];
     return YES;
+}
+
+-(void)getCoorBusinessAt:(NSIndexPath*)indexPath {
+    dispatch_queue_t bgQueue = dispatch_queue_create("Background Queue",NULL);
+    dispatch_async(bgQueue, ^{
+        NSDictionary *dict = [self.businessArr objectAtIndex:indexPath.row];
+        self.businessLocationViewController.lattitude = [[dict valueForKeyPath:@"json.latitude"] doubleValue];
+        self.businessLocationViewController.longitude = [[dict valueForKeyPath:@"json.longitude"] doubleValue];
+        self.businessLocationViewController.location = [NSString stringWithFormat:@"%@,%@",[dict valueForKeyPath:@"json.street"],[dict valueForKeyPath:@"json.prov"]];
+        dispatch_sync(dispatch_get_main_queue(), ^{
+            [self.navigationController pushViewController:self.businessLocationViewController animated:YES];
+        });
+    });
 }
 @end
