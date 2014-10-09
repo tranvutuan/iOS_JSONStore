@@ -10,6 +10,7 @@
 #import "JSONStore.h"
 #import "AppDelegate.h"
 #import "JSONStoreQueryPart.h"
+#import <AdSupport/ASIdentifierManager.h>
 static DataHelper *sharedInstance = nil;
 
 @interface DataHelper ()
@@ -51,8 +52,8 @@ static DataHelper *sharedInstance = nil;
         
         
         self.option = [JSONStoreOpenOptions new];
-        [self.option setUsername:@"jsonStore"]; //Optional username, default 'jsonstore'
-        [self.option setPassword:@"123"];
+        [self.option setUsername:@"db1"]; //Optional username, default 'jsonstore'
+        [self.option setPassword:[self kCFBundleNameKey]];
     }
     return self;
 }
@@ -141,6 +142,9 @@ static DataHelper *sharedInstance = nil;
         NSLog(@"INNERBLOCK");
         completionBlock(findWithQueryPartResult);
     }
+}
+-(NSString*)kCFBundleNameKey{
+    return  [[[NSBundle mainBundle] infoDictionary] objectForKey:(NSString*)kCFBundleNameKey];
 }
 
 @end

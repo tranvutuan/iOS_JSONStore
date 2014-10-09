@@ -68,12 +68,12 @@
 		9179491419E5D731005F9056 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9179491619E5D731005F9056 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9179491819E5D731005F9056 /* JsonStore-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JsonStore-Prefix.pch"; sourceTree = "<group>"; };
-		9179491919E5D731005F9056 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		9179491A19E5D731005F9056 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9179491919E5D731005F9056 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = JsonStore/AppDelegate.h; sourceTree = "<group>"; };
+		9179491A19E5D731005F9056 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = JsonStore/AppDelegate.m; sourceTree = "<group>"; };
 		9179491D19E5D731005F9056 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
 		9179492019E5D731005F9056 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		9179492219E5D731005F9056 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		9179492319E5D731005F9056 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9179492219E5D731005F9056 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = JsonStore/ViewController.h; sourceTree = "<group>"; };
+		9179492319E5D731005F9056 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = JsonStore/ViewController.m; sourceTree = "<group>"; };
 		9179492519E5D731005F9056 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		9179492B19E5D731005F9056 /* JsonStoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JsonStoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9179492C19E5D731005F9056 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -227,10 +227,6 @@
 		917948FE19E5D731005F9056 = {
 			isa = PBXGroup;
 			children = (
-				917949C019E5DDB3005F9056 /* Controllers */,
-				917949BF19E5DDAD005F9056 /* Views */,
-				917949BE19E5DD9C005F9056 /* Models */,
-				917949B719E5DD89005F9056 /* Files */,
 				9179494219E5D822005F9056 /* WorklightAPI */,
 				9179491019E5D731005F9056 /* JsonStore */,
 				9179493219E5D731005F9056 /* JsonStoreTests */,
@@ -269,14 +265,11 @@
 		9179491019E5D731005F9056 /* JsonStore */ = {
 			isa = PBXGroup;
 			children = (
-				917949B419E5D945005F9056 /* DataHelper.h */,
-				917949B519E5D945005F9056 /* DataHelper.m */,
-				9179491919E5D731005F9056 /* AppDelegate.h */,
-				9179491A19E5D731005F9056 /* AppDelegate.m */,
-				9179491C19E5D731005F9056 /* Main_iPhone.storyboard */,
-				9179491F19E5D731005F9056 /* Main_iPad.storyboard */,
-				9179492219E5D731005F9056 /* ViewController.h */,
-				9179492319E5D731005F9056 /* ViewController.m */,
+				917949C019E5DDB3005F9056 /* Controllers */,
+				917949BF19E5DDAD005F9056 /* Views */,
+				917949BE19E5DD9C005F9056 /* Models */,
+				917949B719E5DD89005F9056 /* Jsons */,
+				917949D119E6CD81005F9056 /* DataHelper */,
 				9179492519E5D731005F9056 /* Images.xcassets */,
 				9179491119E5D731005F9056 /* Supporting Files */,
 			);
@@ -431,14 +424,15 @@
 			path = resources;
 			sourceTree = "<group>";
 		};
-		917949B719E5DD89005F9056 /* Files */ = {
+		917949B719E5DD89005F9056 /* Jsons */ = {
 			isa = PBXGroup;
 			children = (
 				917949B819E5DD96005F9056 /* futureshop.json */,
 				917949B919E5DD96005F9056 /* metro.json */,
 				917949BA19E5DD96005F9056 /* costco.json */,
 			);
-			name = Files;
+			name = Jsons;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		917949BE19E5DD9C005F9056 /* Models */ = {
@@ -446,21 +440,29 @@
 			children = (
 			);
 			name = Models;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		917949BF19E5DDAD005F9056 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				9179491C19E5D731005F9056 /* Main_iPhone.storyboard */,
+				9179491F19E5D731005F9056 /* Main_iPad.storyboard */,
 				917949CA19E5DDCF005F9056 /* HomePageViewController.xib */,
 				917949CB19E5DDCF005F9056 /* BusinessListingViewController.xib */,
 				917949CC19E5DDCF005F9056 /* BusinessLocationViewController.xib */,
 			);
 			name = Views;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		917949C019E5DDB3005F9056 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				9179491919E5D731005F9056 /* AppDelegate.h */,
+				9179491A19E5D731005F9056 /* AppDelegate.m */,
+				9179492219E5D731005F9056 /* ViewController.h */,
+				9179492319E5D731005F9056 /* ViewController.m */,
 				917949C119E5DDC3005F9056 /* BusinessListingViewController.h */,
 				917949C219E5DDC3005F9056 /* BusinessListingViewController.m */,
 				917949C319E5DDC3005F9056 /* BusinessLocationViewController.h */,
@@ -469,6 +471,16 @@
 				917949C619E5DDC3005F9056 /* HomePageViewController.m */,
 			);
 			name = Controllers;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		917949D119E6CD81005F9056 /* DataHelper */ = {
+			isa = PBXGroup;
+			children = (
+				917949B419E5D945005F9056 /* DataHelper.h */,
+				917949B519E5D945005F9056 /* DataHelper.m */,
+			);
+			name = DataHelper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -624,6 +636,7 @@
 				9179491D19E5D731005F9056 /* Base */,
 			);
 			name = Main_iPhone.storyboard;
+			path = JsonStore;
 			sourceTree = "<group>";
 		};
 		9179491F19E5D731005F9056 /* Main_iPad.storyboard */ = {
@@ -632,6 +645,7 @@
 				9179492019E5D731005F9056 /* Base */,
 			);
 			name = Main_iPad.storyboard;
+			path = JsonStore;
 			sourceTree = "<group>";
 		};
 		9179493519E5D731005F9056 /* InfoPlist.strings */ = {
@@ -830,6 +844,7 @@
 				9179493E19E5D731005F9056 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9179493F19E5D731005F9056 /* Build configuration list for PBXNativeTarget "JsonStoreTests" */ = {
 			isa = XCConfigurationList;
@@ -838,6 +853,7 @@
 				9179494119E5D731005F9056 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
