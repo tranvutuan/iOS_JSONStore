@@ -46,7 +46,7 @@ static double ticksToNanoseconds = 0.0;
     self.businessLocationViewController = [[BusinessLocationViewController alloc] initWithNibName:@"BusinessLocationViewController" bundle:nil];
 
     [DataHelper sharedDataHelper].block = ^ {
-        NSLog(@"TNA8 = %d",[NSThread isMainThread]);
+        //NSLog(@"TNA8 = %d",[NSThread isMainThread]);
         [[DataHelper sharedDataHelper] fetchBusinessFromJSONStore:self.what withCompletion :^(NSArray *result) {
             self.businessArr = result;
             
@@ -57,7 +57,7 @@ static double ticksToNanoseconds = 0.0;
             NSLog(@"DOWNLOAEDED TIME: %f [ms]", elapsedTimeInNanoseconds/1E6);
             
             dispatch_async(dispatch_get_main_queue(), ^(void){
-                NSLog(@"TNA9 = %d",[NSThread isMainThread]);
+                //NSLog(@"TNA9 = %d",[NSThread isMainThread]);
                 [self.progressBar setProgress:1 animated:YES];
                 sleep(.5); // slow down so that we can see progress bar is reaching to the end.
                 self.progressBar.hidden = YES;
@@ -69,7 +69,7 @@ static double ticksToNanoseconds = 0.0;
     
     [DataHelper sharedDataHelper].progressUpdateBlock = ^(CGFloat percentage) {
         dispatch_async(dispatch_get_main_queue(), ^(void){
-            NSLog(@"TNA10 = %d",[NSThread isMainThread]);
+            //NSLog(@"TNA10 = %d",[NSThread isMainThread]);
             [self.progressBar setProgress:percentage animated:YES];
         });
         

@@ -111,9 +111,9 @@ static float percentTage = 1.0;
         NSLog(@" %@ ",added ? @"SUCCESS TO CREATE BUSINESS ENTRY" : @"FAILURE TO CREATE BUSINESS ENTRY");
         self.percentage = idx*percentTage/businessArr.count;
         self.progressUpdateBlock(self.percentage);
-        NSLog(@"self.percentage is %f",self.percentage);
+        //NSLog(@"self.percentage is %f",self.percentage);
     }];
-    NSLog(@"OUTBLOCK");
+    //NSLog(@"OUTBLOCK");
     self.block();
 
 }
@@ -136,7 +136,7 @@ static float percentTage = 1.0;
     //Count using the query part built above.
     NSArray* findWithQueryPartResult = [businessCollecion findWithQueryParts:@[queryPart] andOptions:options error:&error];
     if (findWithQueryPartResult) {
-        NSLog(@"INNERBLOCK");
+        //NSLog(@"INNERBLOCK");
         completionBlock(findWithQueryPartResult);
     }
 }
